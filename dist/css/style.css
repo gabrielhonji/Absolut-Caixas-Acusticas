@@ -64,8 +64,22 @@ body {
 .bg-rectangle-3 {
     position: absolute;
     z-index: -10;
+    height: 96svh;
+}
+
+.bg-rectangle-4 {
+    position: absolute;
+    z-index: -10;
+    height: auto;
     width: 90vw;
     left: 0;
+}
+
+.complement-rectangle-1 {
+    position: absolute;
+    height: 109.5svh;
+    z-index: -9;
+    left: 8.5vw;
 }
 
 /* Components */
@@ -75,9 +89,11 @@ body {
     text-decoration: none;
     border-radius: 10px;
     padding: 10px 16px;
+    width: fit-content;
     font-weight: 500;
     font-size: 1vw;
 }
+
 
 .cpnt-btn-primary:hover {
     background-color: var(--light-blue-hover-color);
@@ -309,4 +325,59 @@ body {
     margin-top: 4svh;
     display: flex;
     height: 100svh;
+}
+
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    height: 50svh;
+    width: 86vw;
+}
+
+.carousel-item {
+    justify-content: center;
+    text-align: center;
+}
+
+.review-content {
+    margin: 16px auto;
+    font-weight: 500;
+    font-size: 2vw;
+    height: 80%;
+    width: 70%;
+}
+
+/* Still Section */
+.still-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100svh;
+}
+
+.still-container {
+    display: flex;
+    height: 60%;
+    width: 70%;
+}
+
+.box-still-container {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+
+.still-header {
+    font-weight: 650;
+}
+
+.still-content {
+    font-size: 1.5vw;
+    margin-bottom: 32px;
+}
+
+.caixa-still {
+    width: auto;
 }
