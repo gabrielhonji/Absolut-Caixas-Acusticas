@@ -6,6 +6,7 @@
     --light-blue-hover-color: rgb(0, 90, 173);
     --light-blue-color: rgb(0, 66, 126);
     --dark-gray-color: rgb(36, 36, 36);
+    --light-gray-color: rgb(210, 210, 210);
     --white-color: rgb(234, 234, 234);
     --blue-color: rgb(0, 50, 97);
     --gray-color: rgb(40, 40, 40);
@@ -179,7 +180,7 @@ body {
     margin-left: 16px;
 }
 
-.navbar-div a:hover {
+.navbar-div a:hover:not(.navbar-brand) {
     background-color: var(--main-color);
     transition: 200ms linear;
     color: #fff;
@@ -261,7 +262,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 100svh;
+    height: 110svh;
 }
 
 .amplificado-container {
@@ -352,7 +353,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 100svh;
+    height: 80svh;
 }
 
 .still-container {
@@ -380,4 +381,58 @@ body {
 
 .caixa-still {
     width: auto;
+}
+
+/* Footer Section */
+.footer-section {
+    color: var(--white-color);
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    height: 300px;
+}
+
+.footer-container {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+
+.footer-link-container {
+    justify-content: space-evenly;
+    width: 30%;
+    display: flex;
+}
+
+.absolut-rights {
+    width: 16%;
+}
+
+.footer-topic {
+    width: 20%;
+}
+
+.absolut-rights-img {
+    width: 100%;
+}
+
+.footer-topic-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-topic-list-link {
+    text-decoration: none;
+    color: var(--light-gray-color);
+}
+
+.absolut-rights-p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.honji-rights {
+    text-align: right;
+    width: 10%;
 }
