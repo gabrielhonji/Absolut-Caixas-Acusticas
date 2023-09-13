@@ -357,9 +357,10 @@ body {
 }
 
 .still-container {
+    justify-content: center;
     display: flex;
     height: 60%;
-    width: 70%;
+    width: 80%;
 }
 
 .box-still-container {
@@ -390,49 +391,46 @@ body {
     flex-direction: row;
     align-items: center;
     display: flex;
-    height: 300px;
+    height: 200px;
 }
 
 .footer-container {
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
-    width: 100%;
-}
-
-.footer-link-container {
-    justify-content: space-evenly;
-    width: 30%;
-    display: flex;
+    width: 80%;
 }
 
 .absolut-rights {
-    width: 16%;
-}
-
-.footer-topic {
-    width: 20%;
-}
-
-.absolut-rights-img {
-    width: 100%;
-}
-
-.footer-topic-list {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-topic-list-link {
-    text-decoration: none;
-    color: var(--light-gray-color);
+    width: 26%;
 }
 
 .absolut-rights-p {
     text-align: justify;
-    margin-top: 20px;
 }
 
 .honji-rights {
-    text-align: right;
-    width: 10%;
+    font-size: 6pt;
+}
+
+.footer-list-link-icon {
+    justify-content: right;
+    display: flex;
+}
+
+.icon-link {
+    width: 24px;
+}
+
+.mercado-livre-icon {
+    width: 32px;
+}
+
+.footer-list-link {
+    justify-content: right;
+    display: flex;
+}
+
+.footer-link {
+    text-decoration: none;
 }
