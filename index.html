@@ -16,10 +16,10 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg change-on-scroll" id="navbar">
+    <nav class="navbar navbar-expand-lg change-on-scroll">
         <div class="container-fluid mx-4">
             <div class="navbar-div navbar-div-1">
-                <a class="navbar-brand ms-0" href="#" draggable="false">
+                <a class="navbar-brand ms-0" href="#place-later" draggable="false">
                     <img class="absolut-logo change-on-scroll" src="/dist/asset/img/absolut-logo.png"
                         alt="Absolut Caixas Acústicas Logo" draggable="false">
                 </a>
@@ -51,21 +51,21 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav navbar-offcanvas navbar-offcanvas-2 mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <button class="btn link-light cpnt-btn-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Redes</button>
+                        <li class="dropdown">
+                            <a class="btn cpnt-btn-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Redes</a>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Facebook</a></li>
-                                <li><a class="dropdown-item" href="#">Instagram</a></li>
-                                <li><a class="dropdown-item" href="#">Mercado Livre</a></li>
-                            </ul>
-                          </li>
+                                <li><a class="dropdown-item cpnt-item-dropdown" href="https://www.facebook.com/absolutcaixas/?locale=pt_BR" target="_blank">Facebook</a></li>
+                                <li><a class="dropdown-item cpnt-item-dropdown" href="https://www.instagram.com/absolutcaixasacusticas/" target="_blank">Instagram</a></li>
+                                <li><a class="dropdown-item cpnt-item-dropdown" href="https://lista.mercadolivre.com.br/acessorios-veiculos/som-automotivo/caixa-de-som-absolut_BRAND_4848289_NoIndex_True#applied_filter_id%3DBRAND%26applied_filter_name%3DMarca%26applied_filter_order%3D4%26applied_value_id%3D4848289%26applied_value_name%3DAbsolut%26applied_value_order%3D1%26applied_value_results%3D36%26is_custom%3Dfalse" target="_blank">Mercado Livre</a></li>
+                            </ul>   
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="collapse navbar-collapse navbar-div navbar-div-2" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navbar-div navbar-div-2" id="navbar">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link first-item" href="#amplificado-section">Amplificado</a>
@@ -81,13 +81,18 @@
                     </li>
                 </ul>
             </div>
-            <div class="collapse navbar-collapse navbar-div navbar-div-3" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navbar-div navbar-div-3" >
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Redes</a>
+                    <li class="dropdown">
+                        <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Redes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item cpnt-item-dropdown" href="https://www.facebook.com/absolutcaixas/?locale=pt_BR" target="_blank">Facebook</a></li>
+                            <li><a class="dropdown-item cpnt-item-dropdown" href="https://www.instagram.com/absolutcaixasacusticas/" target="_blank">Instagram</a></li>
+                            <li><a class="dropdown-item cpnt-item-dropdown" href="https://lista.mercadolivre.com.br/acessorios-veiculos/som-automotivo/caixa-de-som-absolut_BRAND_4848289_NoIndex_True#applied_filter_id%3DBRAND%26applied_filter_name%3DMarca%26applied_filter_order%3D4%26applied_value_id%3D4848289%26applied_value_name%3DAbsolut%26applied_value_order%3D1%26applied_value_results%3D36%26is_custom%3Dfalse" target="_blank">Mercado Livre</a></li>
+                        </ul>   
                     </li>
                     <li class="nav-item first-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" aria-label="Ligar para (11) 4339-3414" href="tel:+55(11)43393414">Contato</a>
                     </li>
                 </ul>
             </div>

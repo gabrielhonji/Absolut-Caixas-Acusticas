@@ -132,6 +132,10 @@ body {
     padding: 0;
 }
 
+.cpnt-item-dropdown {
+    width: 80%;
+}
+
 /* Color */
 .text-main-color {
     color: var(--main-color);
